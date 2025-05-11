@@ -43,7 +43,7 @@ const handledelete = (id) => {
 
                      checked ={item.checked}
                     />
-                        <lb>{item.item}</lb>
+                        <lb>{"test"}{item.item}</lb>
                          <FaBeer
                          role = "button" 
                          onClick={handledelete(item
